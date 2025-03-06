@@ -153,7 +153,7 @@ function createPPTX(rows){
         colW: [0.8, 2.2, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 1.3]
     });
     
-    pptx.writeFile("TeamResultsStyledBoldHeaders.pptx").then(() => {
-        console.log("Файл сохранен как TeamResultsStyledBoldHeaders.pptx");
+    pptx.writeFile("KvizSO.pptx").then(() => {
+        console.log("Файл сохранен как KvizSO.pptx");
     });    
 };
