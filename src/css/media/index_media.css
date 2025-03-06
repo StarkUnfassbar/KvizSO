@@ -1,0 +1,70 @@
+@media only screen and (min-width : 1900px){
+    main .main__right th:nth-child(2),
+    main .main__right td:nth-child(2){
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width : 1800px){
+    main .main__right th{
+        font-size: 18px;
+    }
+
+    main .main__right td{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width : 1700px){
+    main .main__left{
+        width: 350px;
+        min-width: 350px;
+    }
+}
+
+@media only screen and (min-width : 1650px) and (max-width : 1900px){
+    main .main__right th:nth-child(2),
+    main .main__right td:nth-child(2){
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width : 1550px){
+    main .main__right th:nth-child(2),
+    main .main__right td:nth-child(2){
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width : 1450px){
+    main .main__right th{
+        font-size: 14px;
+    }
+
+    main .main__right td{
+        font-size: 12px;
+    }
+
+    main .main__left{
+        width: 250px;
+        min-width: 250px;
+    }
+}
+
+@media only screen and (max-width : 1320px){
+    main .main__right th:nth-child(2),
+    main .main__right td:nth-child(2){
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width : 1250px){
+    main .main__right th{
+        text-align: center;
+    }
+
+    main .main__right th:nth-child(2),
+    main .main__right td:nth-child(2){
+        width: 30%;
+    }
+}
