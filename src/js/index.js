@@ -98,7 +98,7 @@ function createPPTX(rows){
                         color: style.color,
                         align: style.align,
                         fontFace: "Cocomat Pro",
-                        fontSize: 12,
+                        fontSize: 10,
                         bold: true
                     }
                 };
@@ -110,7 +110,7 @@ function createPPTX(rows){
                         color: style.color,
                         align: style.align,
                         fontFace: "Cocomat Pro",
-                        fontSize: 11,
+                        fontSize: 10,
                         bold: true
                     }
                 };
