@@ -27,7 +27,7 @@ button.addEventListener("click", () => {
                 row[0] = index + 1;
             });
             
-            createPPTX(rows.slice(0, 20));
+            createPPTX(rows.slice(0, 25));
         }
     }
 });
