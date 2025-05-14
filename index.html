@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сервис Квиз</title>
+
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/fonts.css">
+
+    <link rel="stylesheet" href="src/css/media/index_media.css">
+</head>
+<body>
+    <main>
+        <div class="main__left">
+            <div class="block_icon">
+                <img src="src/img/icon_so.png" alt="">
+                <span>квиз</span>
+            </div>
+
+            <div class="block_menu">
+                <h2>Меню</h2>
+
+                <div class="block_change_table">
+                    <button class="button_start" id="button-start">
+                        <span><img src="src/img/icon_start.png" alt=""></span>
+                        Начать
+                    </button>
+
+                    <button class="button_add none" id="button-add-tr">
+                        <span><img src="src/img/icon_add.png" alt=""></span>
+                        Добавить строку
+                    </button>
+
+                    <button class="button_remove none" id="button-remove-tr">
+                        <span><img src="src/img/icon_minus.png" alt=""></span>
+                        Удалить строку
+                    </button>
+
+                    <button class="button_remove_full none" id="button-remove-full-tr">
+                        <span><img src="src/img/icon_remove_full.png" alt=""></span>
+                        Очистить все
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__right">
+            <div class="block_table">
+				<table id="table">
+					<thead>
+						<tr>
+							<th>Номер</th>
+							<th>Название команды</th>
+							<th>Раунд 1</th>
+							<th>Раунд 2</th>
+							<th>Раунд 3</th>
+							<th>Раунд 4</th>
+							<th>Результат</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr class="null_tr">
+							<td>0</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+				</table>
+            </div>
+
+            <div class="block_button">
+                <button id="button">Сохранить таблицу в презентацию</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script> -->
+    <script src="PptxGenJS/dist/pptxgen.bundle.js"></script>
+    <script src="src/js/index.js"></script>
+    <script src="src/js/table_change.js"></script>
+    <script src="src/js/media.js"></script>
+</body>
+</html>
